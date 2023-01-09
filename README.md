@@ -16,10 +16,7 @@ proxybroker runs/works best in python3.5 I find.
 
 Then run:
 
-$ git clone https://github.com/0ptiKali1usion/proxybroker_HTTPS_tester.git
-$ cd proxybroker_HTTPS_tester
-$ chmod +x *
-$ ./masterscript.sh
+$ git clone https://github.com/0ptiKali1usion/proxybroker_HTTPS_tester.git && cd proxybroker_HTTPS_tester && chmod +x * && ./masterscript.sh
 
 I am a rank amatuer, and have been for thrity years, so, maybe I'll make better documentation?
 
