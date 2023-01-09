@@ -1,0 +1,1743 @@
+curl --connect-timeout 2 -k -x 96.230.190.86:3128 https://getfoxyproxy.org/geoip/
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoxyProxy - Whats My IP Address</title>
+    <link rel="stylesheet" type="text/css" href="/assets/fonts/font.css">
+    <link rel="stylesheet" href="/assets/css/app.css?v=26"> 
+	<link rel="apple-touch-icon" sizes="57x57" href="/assets/img/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/assets/img/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/assets/img/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/assets/img/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/assets/img/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/assets/img/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/assets/img/apple-touch-icon-152x152.png">
+	<link rel="icon" type="image/png" href="/assets/img/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/assets/img/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="/assets/img/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="/assets/img/manifest.json">
+	<link rel="mask-icon" href="/assets/img/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="/assets/img/favicon.ico">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-TileImage" content="/assets/img/mstile-144x144.png">
+	<meta name="msapplication-config" content="/assets/img/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+  </head>
+  <body>
+        <div class="top-bar" id="fp-nav-menu">
+      <div class="top-bar-left hide-for-medium">
+        <div id="fp-hamburger" class="title-bar">
+          <button class="menu-icon" type="button"></button>
+          <div class="title-bar-title">Menu</div>
+          <div class="title-bar-right"><a href="/"><img id="homeicon" src="/assets/img/logos/FOXYLogo.svg"> FoxyProxy</a></div>        </div>
+      </div> 
+    
+    <a href="/" class="show-for-medium"><img id="homeicon" src="/assets/img/logos/FOXYLogo.svg"> FoxyProxy</a>      <div class="top-bar-right show-for-medium">
+        <ul id="jaxWasHere" class="dropdown menu" data-dropdown-menu>
+          <li>
+            <a href="/order/">Buy Proxy &amp; VPN</a>
+          </li>
+          <li>
+            <a href="/downloads/">Downloads</a>
+          </li>
+          <li><a href="/corporate/">Custom Plans</a></li>
+          <li>
+          	<a href="/help/">Help</a>
+            <ul class="vertical menu">
+    					<li><a href="/help/faq/">FAQ</a></li>
+              <li><a href="/help/proxy/">Proxy Service</a></li>
+              <li><a href="/help/vpn/">VPN Service</a></li>
+    					<li><a href="/help/browsers/">Browsers</a></li>
+              <li><a href="/resellers/">Resellers</a></li>
+    					<li><a href="/developers/">Developers</a></li>
+              <li><a href="/geoip/">What's my IP and location?</a></li>
+            </ul>
+    			</li>
+          <li>
+          	<a href="#">About</a>
+            <ul class="vertical menu">
+              <li><a href="/contact/">Contact</a></li>
+              <li><a href="/team/">Team</a></li>
+            </ul>
+    			</li>
+            <li><a href='/panel/'>Login to Control Panel</a></li>        </ul>
+      </div>
+    </div>
+    <br/>
+    <div class="row">
+    	<div class="row callout">
+    		<div class="small-12 columns order-bg">
+    			<h1>Your IP Address and Location</h1>
+    		    Your IP address is <strong>96.230.190.86</strong><br><!-- db ver: 2018.12.27-->Your country is <strong>United States</strong> <img class="fp-small-flag" src="../vendor/components/flag-icon-css/flags/4x3/us.svg" alt=""><br>You are in the area of <strong>Cambridge</strong><strong>, Massachusetts</strong><br><br><iframe width="450" height="450" frameborder="1" style="border:1px solid #aaa" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCroKnYopxw-bEWOZI7EZqLUc9mGi6fb6U&q=United+States&language=en"></iframe><div style="font-size:0.7rem">This site includes IP2Location lite data available from <a href="https://lite.ip2location.com">lite.ip2location.com</a></div>    			<form action="" method="get">
+    				<h3>Find the Location of Another IP Address</h3>
+    				<label>IP Address:<input type="text" name="ip" value="96.230.190.86"></label>
+    				<input type="submit" class="large button" value="Find">
+    			</form><br>
+    			
+    			<h3>WebRTC Leak Test</h3>
+    			<h5>WebRTC IP Address Detection:</h5>
+    			Your local IP address is <strong><span id="webrtc-local-ip">not detected</span></strong><br>
+    			Your public IP address is <strong><span id="webrtc-public-ip">not detected</span></strong><br><br>
+    			
+    			<h5>How to Disable WebRTC</h5>
+    			<strong>Firefox</Strong><br>
+    			<p>Install the <a href="https://addons.mozilla.org/en-US/firefox/addon/happy-bonobo-disable-webrtc/">DisableWebRTC add-on</a> then click its toolbar button to activate.</p>
+    			<strong>Chrome</Strong><br>
+    			<p>Install the <a href="https://chrome.google.com/webstore/detail/webrtc-network-limiter/npeicpdbkakmehahjeeohfdhnlpdklia">WebRTC Network Limiter</a>.</p>
+    			
+    		</div>
+    	</div>
+    </div>
+    
+
+    <div class="footer-container">
+        <footer class="row">
+            <div class="medium-3 columns">
+                <h4>About</h4>
+                <ul class="menu footer-menu vertical">
+                    <li id="fabout">FoxyProxy sells reliable, fast, secure VPN and proxy servers in 110+ countries. We also provide free, open-source VPN and proxy management tools.</li>
+                                        <li><a id="flink11" href="/contact/"><i class="fa fa-envelope fa-lg"></i>Contact</a></li>
+                    <li><a id="flink15" href="/team/"><i class="fa fa-id-card-o fa-lg"></i>Team</a></li>
+                    <li><a id="flink9" href="/privacy-policy/"><i class="fa fa-user-secret fa-lg"></i>Privacy Policy</a></li>
+                    <li><a id="flink10" href="/terms-of-service/"><i class="fa fa-gavel fa-lg"></i>Terms of Service</a></li>
+                    <li><a id="flink17" href="/dmca/"><i class="fa fa-shield fa-lg"></i>DMCA Policy</a></li>
+                </ul>
+            </div>
+            <div class="medium-3 columns margin-top-small-only">
+                <h4>Help</h4>
+                <ul class="menu footer-menu vertical">
+                    <li><a id="flink16" href="/panel/"><i class="fa fa-tachometer fa-lg"></i> Login to Control Panel</a></li>
+                    <li><a id="flink1" href="https://support.getfoxyproxy.org/"><i class="fa fa-info-circle fa-lg"></i> Open a Support Ticket no registration required</a></li>
+                    <li><a id="flink3" href="/help/proxy/"><i class="fa fa-question-circle"></i>
+    How to Use Your Proxy Account</a></li>
+                    <li><a id="flink4" href="/help/vpn/"><i class="fa fa-question-circle"></i>
+    How to Use Your VPN Account</a></li>
+                    <li><a id="flink5" href="/help/browsers/"><i class="fa fa-question-circle"></i>
+    Browser Extension Help</a></li>
+                    <li><a id="flink12" href="/resellers/"><i class="fa fa-wrench"></i>Resellers</a></li>
+                </ul>
+            </div>
+            <div class="medium-3 columns margin-top-small-only">
+                <h4>Our Impact</h4>
+                <ul class="menu footer-menu vertical">
+                    <li id="fb-li" class="clearfix">
+                        <div id="fb-comment-container" class="row">
+                            <div class="small-3 columns collapse-all">
+                                <img id="fb-avatar" src="/assets/img/logos/ubuntu-edge-logo.png">
+                            </div>
+                            <div class="small-9 columns collapse-all">
+                                <span id="fb-name" class="facebook-text facebook-blue float-left">&#x649;&#x62F;&#x627;&#x632;&#x647;&#x628; &#x644;&#x627;&#x649;&#x646;&#x627;&#x62F;</span><br>
+                                <div id="fb-comment" class="facebook-text">May be you don't know how much your effort are affecting our lives here in Iran. We love you Guys <span class="emoticon emoticon_heart" title="<3"></span></div>
+    
+                                <div class="facebook-text-small"><span class="facebook-blue">Unlike</span><span class="facebook-grey"> &#x2022; </span><span class="facebook-blue">Comment</span><span class="facebook-grey"> &#x2022; </span><span class="facebook-grey">March 31 at 10:44pm</span></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a id="flink7" href="https://facebook.com/foxyproxy/"><i class="fa fa-facebook fa-lg"></i>Facebook</a></li>
+                    <li><a id="flink8" href="https://twitter.com/foxyproxy/"><i class="fa fa-twitter"></i>Twitter</a></li>
+                    <li><a id="flink14" href="/wifi-routers"><i class="fa fa-wifi"></i>FoxyProxy Wifi Routers</a></li>
+                </ul>
+            </div>
+            <div class="medium-3 columns margin-top-small-only">
+                                <h4>Testimonials (<a href="/testimonials/">View All</a>)</h4>
+                <div id="testis"><p id="testisP">Love your service and your new site!</p><div id="testisName">Dani Dewitt</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+        <script>var isLiveserver=true, isLoggedIn=false, logInOutLi = isLoggedIn ? "<li id='logInOutLi'><a href='/panel?logout=yes'>Logout</a></li>" : "<li id='logInOutLi'><a href='/panel/'>Login to Control Panel</a></li>"
+
+    ;</script>
+
+
+    
+    
+    
+    
+    <script src="/assets/js/app.js?v=38"> </script>
+      </body>
+</html>
+curl --connect-timeout 2 -k -x 116.202.165.119:3121 https://getfoxyproxy.org/geoip/
+curl --connect-timeout 2 -k -x 118.67.143.100:3128 https://getfoxyproxy.org/geoip/
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoxyProxy - Whats My IP Address</title>
+    <link rel="stylesheet" type="text/css" href="/assets/fonts/font.css">
+    <link rel="stylesheet" href="/assets/css/app.css?v=26"> 
+	<link rel="apple-touch-icon" sizes="57x57" href="/assets/img/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/assets/img/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/assets/img/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/assets/img/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/assets/img/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/assets/img/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/assets/img/apple-touch-icon-152x152.png">
+	<link rel="icon" type="image/png" href="/assets/img/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/assets/img/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="/assets/img/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="/assets/img/manifest.json">
+	<link rel="mask-icon" href="/assets/img/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="/assets/img/favicon.ico">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-TileImage" content="/assets/img/mstile-144x144.png">
+	<meta name="msapplication-config" content="/assets/img/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+  </head>
+  <body>
+        <div class="top-bar" id="fp-nav-menu">
+      <div class="top-bar-left hide-for-medium">
+        <div id="fp-hamburger" class="title-bar">
+          <button class="menu-icon" type="button"></button>
+          <div class="title-bar-title">Menu</div>
+          <div class="title-bar-right"><a href="/"><img id="homeicon" src="/assets/img/logos/FOXYLogo.svg"> FoxyProxy</a></div>        </div>
+      </div> 
+    
+    <a href="/" class="show-for-medium"><img id="homeicon" src="/assets/img/logos/FOXYLogo.svg"> FoxyProxy</a>      <div class="top-bar-right show-for-medium">
+        <ul id="jaxWasHere" class="dropdown menu" data-dropdown-menu>
+          <li>
+            <a href="/order/">Buy Proxy &amp; VPN</a>
+          </li>
+          <li>
+            <a href="/downloads/">Downloads</a>
+          </li>
+          <li><a href="/corporate/">Custom Plans</a></li>
+          <li>
+          	<a href="/help/">Help</a>
+            <ul class="vertical menu">
+    					<li><a href="/help/faq/">FAQ</a></li>
+              <li><a href="/help/proxy/">Proxy Service</a></li>
+              <li><a href="/help/vpn/">VPN Service</a></li>
+    					<li><a href="/help/browsers/">Browsers</a></li>
+              <li><a href="/resellers/">Resellers</a></li>
+    					<li><a href="/developers/">Developers</a></li>
+              <li><a href="/geoip/">What's my IP and location?</a></li>
+            </ul>
+    			</li>
+          <li>
+          	<a href="#">About</a>
+            <ul class="vertical menu">
+              <li><a href="/contact/">Contact</a></li>
+              <li><a href="/team/">Team</a></li>
+            </ul>
+    			</li>
+            <li><a href='/panel/'>Login to Control Panel</a></li>        </ul>
+      </div>
+    </div>
+    <br/>
+    <div class="row">
+    	<div class="row callout">
+    		<div class="small-12 columns order-bg">
+    			<h1>Your IP Address and Location</h1>
+    		    Your IP address is <strong>118.67.143.100</strong><br><!-- db ver: 2018.12.27-->Your country is <strong>Korea, Republic of</strong> <img class="fp-small-flag" src="../vendor/components/flag-icon-css/flags/4x3/kr.svg" alt=""><br>You are in the area of <strong>Seongnam</strong><strong>, Gyeonggi-do</strong><br><br><iframe width="450" height="450" frameborder="1" style="border:1px solid #aaa" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCroKnYopxw-bEWOZI7EZqLUc9mGi6fb6U&q=Korea%2C+Republic+of&language=en"></iframe><div style="font-size:0.7rem">This site includes IP2Location lite data available from <a href="https://lite.ip2location.com">lite.ip2location.com</a></div>    			<form action="" method="get">
+    				<h3>Find the Location of Another IP Address</h3>
+    				<label>IP Address:<input type="text" name="ip" value="118.67.143.100"></label>
+    				<input type="submit" class="large button" value="Find">
+    			</form><br>
+    			
+    			<h3>WebRTC Leak Test</h3>
+    			<h5>WebRTC IP Address Detection:</h5>
+    			Your local IP address is <strong><span id="webrtc-local-ip">not detected</span></strong><br>
+    			Your public IP address is <strong><span id="webrtc-public-ip">not detected</span></strong><br><br>
+    			
+    			<h5>How to Disable WebRTC</h5>
+    			<strong>Firefox</Strong><br>
+    			<p>Install the <a href="https://addons.mozilla.org/en-US/firefox/addon/happy-bonobo-disable-webrtc/">DisableWebRTC add-on</a> then click its toolbar button to activate.</p>
+    			<strong>Chrome</Strong><br>
+    			<p>Install the <a href="https://chrome.google.com/webstore/detail/webrtc-network-limiter/npeicpdbkakmehahjeeohfdhnlpdklia">WebRTC Network Limiter</a>.</p>
+    			
+    		</div>
+    	</div>
+    </div>
+    
+
+    <div class="footer-container">
+        <footer class="row">
+            <div class="medium-3 columns">
+                <h4>About</h4>
+                <ul class="menu footer-menu vertical">
+                    <li id="fabout">FoxyProxy sells reliable, fast, secure VPN and proxy servers in 110+ countries. We also provide free, open-source VPN and proxy management tools.</li>
+                                        <li><a id="flink11" href="/contact/"><i class="fa fa-envelope fa-lg"></i>Contact</a></li>
+                    <li><a id="flink15" href="/team/"><i class="fa fa-id-card-o fa-lg"></i>Team</a></li>
+                    <li><a id="flink9" href="/privacy-policy/"><i class="fa fa-user-secret fa-lg"></i>Privacy Policy</a></li>
+                    <li><a id="flink10" href="/terms-of-service/"><i class="fa fa-gavel fa-lg"></i>Terms of Service</a></li>
+                    <li><a id="flink17" href="/dmca/"><i class="fa fa-shield fa-lg"></i>DMCA Policy</a></li>
+                </ul>
+            </div>
+            <div class="medium-3 columns margin-top-small-only">
+                <h4>Help</h4>
+                <ul class="menu footer-menu vertical">
+                    <li><a id="flink16" href="/panel/"><i class="fa fa-tachometer fa-lg"></i> Login to Control Panel</a></li>
+                    <li><a id="flink1" href="https://support.getfoxyproxy.org/"><i class="fa fa-info-circle fa-lg"></i> Open a Support Ticket no registration required</a></li>
+                    <li><a id="flink3" href="/help/proxy/"><i class="fa fa-question-circle"></i>
+    How to Use Your Proxy Account</a></li>
+                    <li><a id="flink4" href="/help/vpn/"><i class="fa fa-question-circle"></i>
+    How to Use Your VPN Account</a></li>
+                    <li><a id="flink5" href="/help/browsers/"><i class="fa fa-question-circle"></i>
+    Browser Extension Help</a></li>
+                    <li><a id="flink12" href="/resellers/"><i class="fa fa-wrench"></i>Resellers</a></li>
+                </ul>
+            </div>
+            <div class="medium-3 columns margin-top-small-only">
+                <h4>Our Impact</h4>
+                <ul class="menu footer-menu vertical">
+                    <li id="fb-li" class="clearfix">
+                        <div id="fb-comment-container" class="row">
+                            <div class="small-3 columns collapse-all">
+                                <img id="fb-avatar" src="/assets/img/logos/ubuntu-edge-logo.png">
+                            </div>
+                            <div class="small-9 columns collapse-all">
+                                <span id="fb-name" class="facebook-text facebook-blue float-left">&#x649;&#x62F;&#x627;&#x632;&#x647;&#x628; &#x644;&#x627;&#x649;&#x646;&#x627;&#x62F;</span><br>
+                                <div id="fb-comment" class="facebook-text">May be you don't know how much your effort are affecting our lives here in Iran. We love you Guys <span class="emoticon emoticon_heart" title="<3"></span></div>
+    
+                                <div class="facebook-text-small"><span class="facebook-blue">Unlike</span><span class="facebook-grey"> &#x2022; </span><span class="facebook-blue">Comment</span><span class="facebook-grey"> &#x2022; </span><span class="facebook-grey">March 31 at 10:44pm</span></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a id="flink7" href="https://facebook.com/foxyproxy/"><i class="fa fa-facebook fa-lg"></i>Facebook</a></li>
+                    <li><a id="flink8" href="https://twitter.com/foxyproxy/"><i class="fa fa-twitter"></i>Twitter</a></li>
+                    <li><a id="flink14" href="/wifi-routers"><i class="fa fa-wifi"></i>FoxyProxy Wifi Routers</a></li>
+                </ul>
+            </div>
+            <div class="medium-3 columns margin-top-small-only">
+                                <h4>Testimonials (<a href="/testimonials/">View All</a>)</h4>
+                <div id="testis"><p id="testisP">Thank you so much for your super fast support!</p><div id="testisName">Christoph Hahn</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+        <script>var isLiveserver=true, isLoggedIn=false, logInOutLi = isLoggedIn ? "<li id='logInOutLi'><a href='/panel?logout=yes'>Logout</a></li>" : "<li id='logInOutLi'><a href='/panel/'>Login to Control Panel</a></li>"
+
+    ;</script>
+
+
+    
+    
+    
+    
+    <script src="/assets/js/app.js?v=38"> </script>
+      </body>
+</html>
+curl --connect-timeout 2 -k -x 166.104.231.44:8888 https://getfoxyproxy.org/geoip/
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoxyProxy - Whats My IP Address</title>
+    <link rel="stylesheet" type="text/css" href="/assets/fonts/font.css">
+    <link rel="stylesheet" href="/assets/css/app.css?v=26"> 
+	<link rel="apple-touch-icon" sizes="57x57" href="/assets/img/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/assets/img/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/assets/img/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/assets/img/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/assets/img/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/assets/img/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/assets/img/apple-touch-icon-152x152.png">
+	<link rel="icon" type="image/png" href="/assets/img/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/assets/img/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="/assets/img/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="/assets/img/manifest.json">
+	<link rel="mask-icon" href="/assets/img/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="/assets/img/favicon.ico">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-TileImage" content="/assets/img/mstile-144x144.png">
+	<meta name="msapplication-config" content="/assets/img/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+  </head>
+  <body>
+        <div class="top-bar" id="fp-nav-menu">
+      <div class="top-bar-left hide-for-medium">
+        <div id="fp-hamburger" class="title-bar">
+          <button class="menu-icon" type="button"></button>
+          <div class="title-bar-title">Menu</div>
+          <div class="title-bar-right"><a href="/"><img id="homeicon" src="/assets/img/logos/FOXYLogo.svg"> FoxyProxy</a></div>        </div>
+      </div> 
+    
+    <a href="/" class="show-for-medium"><img id="homeicon" src="/assets/img/logos/FOXYLogo.svg"> FoxyProxy</a>      <div class="top-bar-right show-for-medium">
+        <ul id="jaxWasHere" class="dropdown menu" data-dropdown-menu>
+          <li>
+            <a href="/order/">Buy Proxy &amp; VPN</a>
+          </li>
+          <li>
+            <a href="/downloads/">Downloads</a>
+          </li>
+          <li><a href="/corporate/">Custom Plans</a></li>
+          <li>
+          	<a href="/help/">Help</a>
+            <ul class="vertical menu">
+    					<li><a href="/help/faq/">FAQ</a></li>
+              <li><a href="/help/proxy/">Proxy Service</a></li>
+              <li><a href="/help/vpn/">VPN Service</a></li>
+    					<li><a href="/help/browsers/">Browsers</a></li>
+              <li><a href="/resellers/">Resellers</a></li>
+    					<li><a href="/developers/">Developers</a></li>
+              <li><a href="/geoip/">What's my IP and location?</a></li>
+            </ul>
+    			</li>
+          <li>
+          	<a href="#">About</a>
+            <ul class="vertical menu">
+              <li><a href="/contact/">Contact</a></li>
+              <li><a href="/team/">Team</a></li>
+            </ul>
+    			</li>
+            <li><a href='/panel/'>Login to Control Panel</a></li>        </ul>
+      </div>
+    </div>
+    <br/>
+    <div class="row">
+    	<div class="row callout">
+    		<div class="small-12 columns order-bg">
+    			<h1>Your IP Address and Location</h1>
+    		    Your IP address is <strong>166.104.231.44</strong><br><!-- db ver: 2018.12.27-->Your country is <strong>Korea, Republic of</strong> <img class="fp-small-flag" src="../vendor/components/flag-icon-css/flags/4x3/kr.svg" alt=""><br>You are in the area of <strong>Seoul</strong><strong>, Seoul-teukbyeolsi</strong><br><br><iframe width="450" height="450" frameborder="1" style="border:1px solid #aaa" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCroKnYopxw-bEWOZI7EZqLUc9mGi6fb6U&q=Korea%2C+Republic+of&language=en"></iframe><div style="font-size:0.7rem">This site includes IP2Location lite data available from <a href="https://lite.ip2location.com">lite.ip2location.com</a></div>    			<form action="" method="get">
+    				<h3>Find the Location of Another IP Address</h3>
+    				<label>IP Address:<input type="text" name="ip" value="166.104.231.44"></label>
+    				<input type="submit" class="large button" value="Find">
+    			</form><br>
+    			
+    			<h3>WebRTC Leak Test</h3>
+    			<h5>WebRTC IP Address Detection:</h5>
+    			Your local IP address is <strong><span id="webrtc-local-ip">not detected</span></strong><br>
+    			Your public IP address is <strong><span id="webrtc-public-ip">not detected</span></strong><br><br>
+    			
+    			<h5>How to Disable WebRTC</h5>
+    			<strong>Firefox</Strong><br>
+    			<p>Install the <a href="https://addons.mozilla.org/en-US/firefox/addon/happy-bonobo-disable-webrtc/">DisableWebRTC add-on</a> then click its toolbar button to activate.</p>
+    			<strong>Chrome</Strong><br>
+    			<p>Install the <a href="https://chrome.google.com/webstore/detail/webrtc-network-limiter/npeicpdbkakmehahjeeohfdhnlpdklia">WebRTC Network Limiter</a>.</p>
+    			
+    		</div>
+    	</div>
+    </div>
+    
+
+    <div class="footer-container">
+        <footer class="row">
+            <div class="medium-3 columns">
+                <h4>About</h4>
+                <ul class="menu footer-menu vertical">
+                    <li id="fabout">FoxyProxy sells reliable, fast, secure VPN and proxy servers in 110+ countries. We also provide free, open-source VPN and proxy management tools.</li>
+                                        <li><a id="flink11" href="/contact/"><i class="fa fa-envelope fa-lg"></i>Contact</a></li>
+                    <li><a id="flink15" href="/team/"><i class="fa fa-id-card-o fa-lg"></i>Team</a></li>
+                    <li><a id="flink9" href="/privacy-policy/"><i class="fa fa-user-secret fa-lg"></i>Privacy Policy</a></li>
+                    <li><a id="flink10" href="/terms-of-service/"><i class="fa fa-gavel fa-lg"></i>Terms of Service</a></li>
+                    <li><a id="flink17" href="/dmca/"><i class="fa fa-shield fa-lg"></i>DMCA Policy</a></li>
+                </ul>
+            </div>
+            <div class="medium-3 columns margin-top-small-only">
+                <h4>Help</h4>
+                <ul class="menu footer-menu vertical">
+                    <li><a id="flink16" href="/panel/"><i class="fa fa-tachometer fa-lg"></i> Login to Control Panel</a></li>
+                    <li><a id="flink1" href="https://support.getfoxyproxy.org/"><i class="fa fa-info-circle fa-lg"></i> Open a Support Ticket no registration required</a></li>
+                    <li><a id="flink3" href="/help/proxy/"><i class="fa fa-question-circle"></i>
+    How to Use Your Proxy Account</a></li>
+                    <li><a id="flink4" href="/help/vpn/"><i class="fa fa-question-circle"></i>
+    How to Use Your VPN Account</a></li>
+                    <li><a id="flink5" href="/help/browsers/"><i class="fa fa-question-circle"></i>
+    Browser Extension Help</a></li>
+                    <li><a id="flink12" href="/resellers/"><i class="fa fa-wrench"></i>Resellers</a></li>
+                </ul>
+            </div>
+            <div class="medium-3 columns margin-top-small-only">
+                <h4>Our Impact</h4>
+                <ul class="menu footer-menu vertical">
+                    <li id="fb-li" class="clearfix">
+                        <div id="fb-comment-container" class="row">
+                            <div class="small-3 columns collapse-all">
+                                <img id="fb-avatar" src="/assets/img/logos/ubuntu-edge-logo.png">
+                            </div>
+                            <div class="small-9 columns collapse-all">
+                                <span id="fb-name" class="facebook-text facebook-blue float-left">&#x649;&#x62F;&#x627;&#x632;&#x647;&#x628; &#x644;&#x627;&#x649;&#x646;&#x627;&#x62F;</span><br>
+                                <div id="fb-comment" class="facebook-text">May be you don't know how much your effort are affecting our lives here in Iran. We love you Guys <span class="emoticon emoticon_heart" title="<3"></span></div>
+    
+                                <div class="facebook-text-small"><span class="facebook-blue">Unlike</span><span class="facebook-grey"> &#x2022; </span><span class="facebook-blue">Comment</span><span class="facebook-grey"> &#x2022; </span><span class="facebook-grey">March 31 at 10:44pm</span></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a id="flink7" href="https://facebook.com/foxyproxy/"><i class="fa fa-facebook fa-lg"></i>Facebook</a></li>
+                    <li><a id="flink8" href="https://twitter.com/foxyproxy/"><i class="fa fa-twitter"></i>Twitter</a></li>
+                    <li><a id="flink14" href="/wifi-routers"><i class="fa fa-wifi"></i>FoxyProxy Wifi Routers</a></li>
+                </ul>
+            </div>
+            <div class="medium-3 columns margin-top-small-only">
+                                <h4>Testimonials (<a href="/testimonials/">View All</a>)</h4>
+                <div id="testis"><p id="testisP">The service has been great for the 5 or 6 years that we have used it!</p><div id="testisName">Jo Anderson</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+        <script>var isLiveserver=true, isLoggedIn=false, logInOutLi = isLoggedIn ? "<li id='logInOutLi'><a href='/panel?logout=yes'>Logout</a></li>" : "<li id='logInOutLi'><a href='/panel/'>Login to Control Panel</a></li>"
+
+    ;</script>
+
+
+    
+    
+    
+    
+    <script src="/assets/js/app.js?v=38"> </script>
+      </body>
+</html>
+curl --connect-timeout 2 -k -x 49.50.175.46:3128 https://getfoxyproxy.org/geoip/
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoxyProxy - Whats My IP Address</title>
+    <link rel="stylesheet" type="text/css" href="/assets/fonts/font.css">
+    <link rel="stylesheet" href="/assets/css/app.css?v=26"> 
+	<link rel="apple-touch-icon" sizes="57x57" href="/assets/img/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/assets/img/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/assets/img/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/assets/img/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/assets/img/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/assets/img/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/assets/img/apple-touch-icon-152x152.png">
+	<link rel="icon" type="image/png" href="/assets/img/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/assets/img/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="/assets/img/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="/assets/img/manifest.json">
+	<link rel="mask-icon" href="/assets/img/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="/assets/img/favicon.ico">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-TileImage" content="/assets/img/mstile-144x144.png">
+	<meta name="msapplication-config" content="/assets/img/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+  </head>
+  <body>
+        <div class="top-bar" id="fp-nav-menu">
+      <div class="top-bar-left hide-for-medium">
+        <div id="fp-hamburger" class="title-bar">
+          <button class="menu-icon" type="button"></button>
+          <div class="title-bar-title">Menu</div>
+          <div class="title-bar-right"><a href="/"><img id="homeicon" src="/assets/img/logos/FOXYLogo.svg"> FoxyProxy</a></div>        </div>
+      </div> 
+    
+    <a href="/" class="show-for-medium"><img id="homeicon" src="/assets/img/logos/FOXYLogo.svg"> FoxyProxy</a>      <div class="top-bar-right show-for-medium">
+        <ul id="jaxWasHere" class="dropdown menu" data-dropdown-menu>
+          <li>
+            <a href="/order/">Buy Proxy &amp; VPN</a>
+          </li>
+          <li>
+            <a href="/downloads/">Downloads</a>
+          </li>
+          <li><a href="/corporate/">Custom Plans</a></li>
+          <li>
+          	<a href="/help/">Help</a>
+            <ul class="vertical menu">
+    					<li><a href="/help/faq/">FAQ</a></li>
+              <li><a href="/help/proxy/">Proxy Service</a></li>
+              <li><a href="/help/vpn/">VPN Service</a></li>
+    					<li><a href="/help/browsers/">Browsers</a></li>
+              <li><a href="/resellers/">Resellers</a></li>
+    					<li><a href="/developers/">Developers</a></li>
+              <li><a href="/geoip/">What's my IP and location?</a></li>
+            </ul>
+    			</li>
+          <li>
+          	<a href="#">About</a>
+            <ul class="vertical menu">
+              <li><a href="/contact/">Contact</a></li>
+              <li><a href="/team/">Team</a></li>
+            </ul>
+    			</li>
+            <li><a href='/panel/'>Login to Control Panel</a></li>        </ul>
+      </div>
+    </div>
+    <br/>
+    <div class="row">
+    	<div class="row callout">
+    		<div class="small-12 columns order-bg">
+    			<h1>Your IP Address and Location</h1>
+    		    Your IP address is <strong>49.50.175.46</strong><br><!-- db ver: 2018.12.27-->Your country is <strong>Korea, Republic of</strong> <img class="fp-small-flag" src="../vendor/components/flag-icon-css/flags/4x3/kr.svg" alt=""><br>You are in the area of <strong>Seongnam</strong><strong>, Gyeonggi-do</strong><br><br><iframe width="450" height="450" frameborder="1" style="border:1px solid #aaa" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCroKnYopxw-bEWOZI7EZqLUc9mGi6fb6U&q=Korea%2C+Republic+of&language=en"></iframe><div style="font-size:0.7rem">This site includes IP2Location lite data available from <a href="https://lite.ip2location.com">lite.ip2location.com</a></div>    			<form action="" method="get">
+    				<h3>Find the Location of Another IP Address</h3>
+    				<label>IP Address:<input type="text" name="ip" value="49.50.175.46"></label>
+    				<input type="submit" class="large button" value="Find">
+    			</form><br>
+    			
+    			<h3>WebRTC Leak Test</h3>
+    			<h5>WebRTC IP Address Detection:</h5>
+    			Your local IP address is <strong><span id="webrtc-local-ip">not detected</span></strong><br>
+    			Your public IP address is <strong><span id="webrtc-public-ip">not detected</span></strong><br><br>
+    			
+    			<h5>How to Disable WebRTC</h5>
+    			<strong>Firefox</Strong><br>
+    			<p>Install the <a href="https://addons.mozilla.org/en-US/firefox/addon/happy-bonobo-disable-webrtc/">DisableWebRTC add-on</a> then click its toolbar button to activate.</p>
+    			<strong>Chrome</Strong><br>
+    			<p>Install the <a href="https://chrome.google.com/webstore/detail/webrtc-network-limiter/npeicpdbkakmehahjeeohfdhnlpdklia">WebRTC Network Limiter</a>.</p>
+    			
+    		</div>
+    	</div>
+    </div>
+    
+
+    <div class="footer-container">
+        <footer class="row">
+            <div class="medium-3 columns">
+                <h4>About</h4>
+                <ul class="menu footer-menu vertical">
+                    <li id="fabout">FoxyProxy sells reliable, fast, secure VPN and proxy servers in 110+ countries. We also provide free, open-source VPN and proxy management tools.</li>
+                                        <li><a id="flink11" href="/contact/"><i class="fa fa-envelope fa-lg"></i>Contact</a></li>
+                    <li><a id="flink15" href="/team/"><i class="fa fa-id-card-o fa-lg"></i>Team</a></li>
+                    <li><a id="flink9" href="/privacy-policy/"><i class="fa fa-user-secret fa-lg"></i>Privacy Policy</a></li>
+                    <li><a id="flink10" href="/terms-of-service/"><i class="fa fa-gavel fa-lg"></i>Terms of Service</a></li>
+                    <li><a id="flink17" href="/dmca/"><i class="fa fa-shield fa-lg"></i>DMCA Policy</a></li>
+                </ul>
+            </div>
+            <div class="medium-3 columns margin-top-small-only">
+                <h4>Help</h4>
+                <ul class="menu footer-menu vertical">
+                    <li><a id="flink16" href="/panel/"><i class="fa fa-tachometer fa-lg"></i> Login to Control Panel</a></li>
+                    <li><a id="flink1" href="https://support.getfoxyproxy.org/"><i class="fa fa-info-circle fa-lg"></i> Open a Support Ticket no registration required</a></li>
+                    <li><a id="flink3" href="/help/proxy/"><i class="fa fa-question-circle"></i>
+    How to Use Your Proxy Account</a></li>
+                    <li><a id="flink4" href="/help/vpn/"><i class="fa fa-question-circle"></i>
+    How to Use Your VPN Account</a></li>
+                    <li><a id="flink5" href="/help/browsers/"><i class="fa fa-question-circle"></i>
+    Browser Extension Help</a></li>
+                    <li><a id="flink12" href="/resellers/"><i class="fa fa-wrench"></i>Resellers</a></li>
+                </ul>
+            </div>
+            <div class="medium-3 columns margin-top-small-only">
+                <h4>Our Impact</h4>
+                <ul class="menu footer-menu vertical">
+                    <li id="fb-li" class="clearfix">
+                        <div id="fb-comment-container" class="row">
+                            <div class="small-3 columns collapse-all">
+                                <img id="fb-avatar" src="/assets/img/logos/ubuntu-edge-logo.png">
+                            </div>
+                            <div class="small-9 columns collapse-all">
+                                <span id="fb-name" class="facebook-text facebook-blue float-left">&#x649;&#x62F;&#x627;&#x632;&#x647;&#x628; &#x644;&#x627;&#x649;&#x646;&#x627;&#x62F;</span><br>
+                                <div id="fb-comment" class="facebook-text">May be you don't know how much your effort are affecting our lives here in Iran. We love you Guys <span class="emoticon emoticon_heart" title="<3"></span></div>
+    
+                                <div class="facebook-text-small"><span class="facebook-blue">Unlike</span><span class="facebook-grey"> &#x2022; </span><span class="facebook-blue">Comment</span><span class="facebook-grey"> &#x2022; </span><span class="facebook-grey">March 31 at 10:44pm</span></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a id="flink7" href="https://facebook.com/foxyproxy/"><i class="fa fa-facebook fa-lg"></i>Facebook</a></li>
+                    <li><a id="flink8" href="https://twitter.com/foxyproxy/"><i class="fa fa-twitter"></i>Twitter</a></li>
+                    <li><a id="flink14" href="/wifi-routers"><i class="fa fa-wifi"></i>FoxyProxy Wifi Routers</a></li>
+                </ul>
+            </div>
+            <div class="medium-3 columns margin-top-small-only">
+                                <h4>Testimonials (<a href="/testimonials/">View All</a>)</h4>
+                <div id="testis"><p id="testisP">Just signed up for another 6 months package....This allows me to stay connected to the BBC iplayer whilst travelling in Asia. Great consistant connections...Thanks</p><div id="testisName">Tim Holden</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+        <script>var isLiveserver=true, isLoggedIn=false, logInOutLi = isLoggedIn ? "<li id='logInOutLi'><a href='/panel?logout=yes'>Logout</a></li>" : "<li id='logInOutLi'><a href='/panel/'>Login to Control Panel</a></li>"
+
+    ;</script>
+
+
+    
+    
+    
+    
+    <script src="/assets/js/app.js?v=38"> </script>
+      </body>
+</html>
+curl --connect-timeout 2 -k -x 139.59.82.255:3128 https://getfoxyproxy.org/geoip/
+curl --connect-timeout 2 -k -x 49.50.172.9:3128 https://getfoxyproxy.org/geoip/
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoxyProxy - Whats My IP Address</title>
+    <link rel="stylesheet" type="text/css" href="/assets/fonts/font.css">
+    <link rel="stylesheet" href="/assets/css/app.css?v=26"> 
+	<link rel="apple-touch-icon" sizes="57x57" href="/assets/img/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/assets/img/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/assets/img/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/assets/img/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/assets/img/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/assets/img/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/assets/img/apple-touch-icon-152x152.png">
+	<link rel="icon" type="image/png" href="/assets/img/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/assets/img/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="/assets/img/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="/assets/img/manifest.json">
+	<link rel="mask-icon" href="/assets/img/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="/assets/img/favicon.ico">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-TileImage" content="/assets/img/mstile-144x144.png">
+	<meta name="msapplication-config" content="/assets/img/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+  </head>
+  <body>
+        <div class="top-bar" id="fp-nav-menu">
+      <div class="top-bar-left hide-for-medium">
+        <div id="fp-hamburger" class="title-bar">
+          <button class="menu-icon" type="button"></button>
+          <div class="title-bar-title">Menu</div>
+          <div class="title-bar-right"><a href="/"><img id="homeicon" src="/assets/img/logos/FOXYLogo.svg"> FoxyProxy</a></div>        </div>
+      </div> 
+    
+    <a href="/" class="show-for-medium"><img id="homeicon" src="/assets/img/logos/FOXYLogo.svg"> FoxyProxy</a>      <div class="top-bar-right show-for-medium">
+        <ul id="jaxWasHere" class="dropdown menu" data-dropdown-menu>
+          <li>
+            <a href="/order/">Buy Proxy &amp; VPN</a>
+          </li>
+          <li>
+            <a href="/downloads/">Downloads</a>
+          </li>
+          <li><a href="/corporate/">Custom Plans</a></li>
+          <li>
+          	<a href="/help/">Help</a>
+            <ul class="vertical menu">
+    					<li><a href="/help/faq/">FAQ</a></li>
+              <li><a href="/help/proxy/">Proxy Service</a></li>
+              <li><a href="/help/vpn/">VPN Service</a></li>
+    					<li><a href="/help/browsers/">Browsers</a></li>
+              <li><a href="/resellers/">Resellers</a></li>
+    					<li><a href="/developers/">Developers</a></li>
+              <li><a href="/geoip/">What's my IP and location?</a></li>
+            </ul>
+    			</li>
+          <li>
+          	<a href="#">About</a>
+            <ul class="vertical menu">
+              <li><a href="/contact/">Contact</a></li>
+              <li><a href="/team/">Team</a></li>
+            </ul>
+    			</li>
+            <li><a href='/panel/'>Login to Control Panel</a></li>        </ul>
+      </div>
+    </div>
+    <br/>
+    <div class="row">
+    	<div class="row callout">
+    		<div class="small-12 columns order-bg">
+    			<h1>Your IP Address and Location</h1>
+    		    Your IP address is <strong>49.50.172.9</strong><br><!-- db ver: 2018.12.27-->Your country is <strong>Korea, Republic of</strong> <img class="fp-small-flag" src="../vendor/components/flag-icon-css/flags/4x3/kr.svg" alt=""><br>You are in the area of <strong>Seongnam</strong><strong>, Gyeonggi-do</strong><br><br><iframe width="450" height="450" frameborder="1" style="border:1px solid #aaa" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCroKnYopxw-bEWOZI7EZqLUc9mGi6fb6U&q=Korea%2C+Republic+of&language=en"></iframe><div style="font-size:0.7rem">This site includes IP2Location lite data available from <a href="https://lite.ip2location.com">lite.ip2location.com</a></div>    			<form action="" method="get">
+    				<h3>Find the Location of Another IP Address</h3>
+    				<label>IP Address:<input type="text" name="ip" value="49.50.172.9"></label>
+    				<input type="submit" class="large button" value="Find">
+    			</form><br>
+    			
+    			<h3>WebRTC Leak Test</h3>
+    			<h5>WebRTC IP Address Detection:</h5>
+    			Your local IP address is <strong><span id="webrtc-local-ip">not detected</span></strong><br>
+    			Your public IP address is <strong><span id="webrtc-public-ip">not detected</span></strong><br><br>
+    			
+    			<h5>How to Disable WebRTC</h5>
+    			<strong>Firefox</Strong><br>
+    			<p>Install the <a href="https://addons.mozilla.org/en-US/firefox/addon/happy-bonobo-disable-webrtc/">DisableWebRTC add-on</a> then click its toolbar button to activate.</p>
+    			<strong>Chrome</Strong><br>
+    			<p>Install the <a href="https://chrome.google.com/webstore/detail/webrtc-network-limiter/npeicpdbkakmehahjeeohfdhnlpdklia">WebRTC Network Limiter</a>.</p>
+    			
+    		</div>
+    	</div>
+    </div>
+    
+
+    <div class="footer-container">
+        <footer class="row">
+            <div class="medium-3 columns">
+                <h4>About</h4>
+                <ul class="menu footer-menu vertical">
+                    <li id="fabout">FoxyProxy sells reliable, fast, secure VPN and proxy servers in 110+ countries. We also provide free, open-source VPN and proxy management tools.</li>
+                                        <li><a id="flink11" href="/contact/"><i class="fa fa-envelope fa-lg"></i>Contact</a></li>
+                    <li><a id="flink15" href="/team/"><i class="fa fa-id-card-o fa-lg"></i>Team</a></li>
+                    <li><a id="flink9" href="/privacy-policy/"><i class="fa fa-user-secret fa-lg"></i>Privacy Policy</a></li>
+                    <li><a id="flink10" href="/terms-of-service/"><i class="fa fa-gavel fa-lg"></i>Terms of Service</a></li>
+                    <li><a id="flink17" href="/dmca/"><i class="fa fa-shield fa-lg"></i>DMCA Policy</a></li>
+                </ul>
+            </div>
+            <div class="medium-3 columns margin-top-small-only">
+                <h4>Help</h4>
+                <ul class="menu footer-menu vertical">
+                    <li><a id="flink16" href="/panel/"><i class="fa fa-tachometer fa-lg"></i> Login to Control Panel</a></li>
+                    <li><a id="flink1" href="https://support.getfoxyproxy.org/"><i class="fa fa-info-circle fa-lg"></i> Open a Support Ticket no registration required</a></li>
+                    <li><a id="flink3" href="/help/proxy/"><i class="fa fa-question-circle"></i>
+    How to Use Your Proxy Account</a></li>
+                    <li><a id="flink4" href="/help/vpn/"><i class="fa fa-question-circle"></i>
+    How to Use Your VPN Account</a></li>
+                    <li><a id="flink5" href="/help/browsers/"><i class="fa fa-question-circle"></i>
+    Browser Extension Help</a></li>
+                    <li><a id="flink12" href="/resellers/"><i class="fa fa-wrench"></i>Resellers</a></li>
+                </ul>
+            </div>
+            <div class="medium-3 columns margin-top-small-only">
+                <h4>Our Impact</h4>
+                <ul class="menu footer-menu vertical">
+                    <li id="fb-li" class="clearfix">
+                        <div id="fb-comment-container" class="row">
+                            <div class="small-3 columns collapse-all">
+                                <img id="fb-avatar" src="/assets/img/logos/ubuntu-edge-logo.png">
+                            </div>
+                            <div class="small-9 columns collapse-all">
+                                <span id="fb-name" class="facebook-text facebook-blue float-left">&#x649;&#x62F;&#x627;&#x632;&#x647;&#x628; &#x644;&#x627;&#x649;&#x646;&#x627;&#x62F;</span><br>
+                                <div id="fb-comment" class="facebook-text">May be you don't know how much your effort are affecting our lives here in Iran. We love you Guys <span class="emoticon emoticon_heart" title="<3"></span></div>
+    
+                                <div class="facebook-text-small"><span class="facebook-blue">Unlike</span><span class="facebook-grey"> &#x2022; </span><span class="facebook-blue">Comment</span><span class="facebook-grey"> &#x2022; </span><span class="facebook-grey">March 31 at 10:44pm</span></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a id="flink7" href="https://facebook.com/foxyproxy/"><i class="fa fa-facebook fa-lg"></i>Facebook</a></li>
+                    <li><a id="flink8" href="https://twitter.com/foxyproxy/"><i class="fa fa-twitter"></i>Twitter</a></li>
+                    <li><a id="flink14" href="/wifi-routers"><i class="fa fa-wifi"></i>FoxyProxy Wifi Routers</a></li>
+                </ul>
+            </div>
+            <div class="medium-3 columns margin-top-small-only">
+                                <h4>Testimonials (<a href="/testimonials/">View All</a>)</h4>
+                <div id="testis"><p id="testisP">FoxyProxy still remains the best</p><div id="testisName">Juan M. Simpson</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+        <script>var isLiveserver=true, isLoggedIn=false, logInOutLi = isLoggedIn ? "<li id='logInOutLi'><a href='/panel?logout=yes'>Logout</a></li>" : "<li id='logInOutLi'><a href='/panel/'>Login to Control Panel</a></li>"
+
+    ;</script>
+
+
+    
+    
+    
+    
+    <script src="/assets/js/app.js?v=38"> </script>
+      </body>
+</html>
+curl --connect-timeout 2 -k -x 66.70.178.214:9300 https://getfoxyproxy.org/geoip/
+curl --connect-timeout 2 -k -x 186.136.56.77:3128 https://getfoxyproxy.org/geoip/
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoxyProxy - Whats My IP Address</title>
+    <link rel="stylesheet" type="text/css" href="/assets/fonts/font.css">
+    <link rel="stylesheet" href="/assets/css/app.css?v=26"> 
+	<link rel="apple-touch-icon" sizes="57x57" href="/assets/img/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/assets/img/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/assets/img/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/assets/img/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/assets/img/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/assets/img/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/assets/img/apple-touch-icon-152x152.png">
+	<link rel="icon" type="image/png" href="/assets/img/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/assets/img/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="/assets/img/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="/assets/img/manifest.json">
+	<link rel="mask-icon" href="/assets/img/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="/assets/img/favicon.ico">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-TileImage" content="/assets/img/mstile-144x144.png">
+	<meta name="msapplication-config" content="/assets/img/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+  </head>
+  <body>
+        <div class="top-bar" id="fp-nav-menu">
+      <div class="top-bar-left hide-for-medium">
+        <div id="fp-hamburger" class="title-bar">
+          <button class="menu-icon" type="button"></button>
+          <div class="title-bar-title">Menu</div>
+          <div class="title-bar-right"><a href="/"><img id="homeicon" src="/assets/img/logos/FOXYLogo.svg"> FoxyProxy</a></div>        </div>
+      </div> 
+    
+    <a href="/" class="show-for-medium"><img id="homeicon" src="/assets/img/logos/FOXYLogo.svg"> FoxyProxy</a>      <div class="top-bar-right show-for-medium">
+        <ul id="jaxWasHere" class="dropdown menu" data-dropdown-menu>
+          <li>
+            <a href="/order/">Buy Proxy &amp; VPN</a>
+          </li>
+          <li>
+            <a href="/downloads/">Downloads</a>
+          </li>
+          <li><a href="/corporate/">Custom Plans</a></li>
+          <li>
+          	<a href="/help/">Help</a>
+            <ul class="vertical menu">
+    					<li><a href="/help/faq/">FAQ</a></li>
+              <li><a href="/help/proxy/">Proxy Service</a></li>
+              <li><a href="/help/vpn/">VPN Service</a></li>
+    					<li><a href="/help/browsers/">Browsers</a></li>
+              <li><a href="/resellers/">Resellers</a></li>
+    					<li><a href="/developers/">Developers</a></li>
+              <li><a href="/geoip/">What's my IP and location?</a></li>
+            </ul>
+    			</li>
+          <li>
+          	<a href="#">About</a>
+            <ul class="vertical menu">
+              <li><a href="/contact/">Contact</a></li>
+              <li><a href="/team/">Team</a></li>
+            </ul>
+    			</li>
+            <li><a href='/panel/'>Login to Control Panel</a></li>        </ul>
+      </div>
+    </div>
+    <br/>
+    <div class="row">
+    	<div class="row callout">
+    		<div class="small-12 columns order-bg">
+    			<h1>Your IP Address and Location</h1>
+    		    Your IP address is <strong>186.136.56.77</strong><br><!-- db ver: 2018.12.27-->Your country is <strong>Argentina</strong> <img class="fp-small-flag" src="../vendor/components/flag-icon-css/flags/4x3/ar.svg" alt=""><br>You are in the area of <strong>Mar del Plata</strong><strong>, Buenos Aires</strong><br><br><iframe width="450" height="450" frameborder="1" style="border:1px solid #aaa" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCroKnYopxw-bEWOZI7EZqLUc9mGi6fb6U&q=Argentina&language=en"></iframe><div style="font-size:0.7rem">This site includes IP2Location lite data available from <a href="https://lite.ip2location.com">lite.ip2location.com</a></div>    			<form action="" method="get">
+    				<h3>Find the Location of Another IP Address</h3>
+    				<label>IP Address:<input type="text" name="ip" value="186.136.56.77"></label>
+    				<input type="submit" class="large button" value="Find">
+    			</form><br>
+    			
+    			<h3>WebRTC Leak Test</h3>
+    			<h5>WebRTC IP Address Detection:</h5>
+    			Your local IP address is <strong><span id="webrtc-local-ip">not detected</span></strong><br>
+    			Your public IP address is <strong><span id="webrtc-public-ip">not detected</span></strong><br><br>
+    			
+    			<h5>How to Disable WebRTC</h5>
+    			<strong>Firefox</Strong><br>
+    			<p>Install the <a href="https://addons.mozilla.org/en-US/firefox/addon/happy-bonobo-disable-webrtc/">DisableWebRTC add-on</a> then click its toolbar button to activate.</p>
+    			<strong>Chrome</Strong><br>
+    			<p>Install the <a href="https://chrome.google.com/webstore/detail/webrtc-network-limiter/npeicpdbkakmehahjeeohfdhnlpdklia">WebRTC Network Limiter</a>.</p>
+    			
+    		</div>
+    	</div>
+    </div>
+    
+
+    <div class="footer-container">
+        <footer class="row">
+            <div class="medium-3 columns">
+                <h4>About</h4>
+                <ul class="menu footer-menu vertical">
+                    <li id="fabout">FoxyProxy sells reliable, fast, secure VPN and proxy servers in 110+ countries. We also provide free, open-source VPN and proxy management tools.</li>
+                                        <li><a id="flink11" href="/contact/"><i class="fa fa-envelope fa-lg"></i>Contact</a></li>
+                    <li><a id="flink15" href="/team/"><i class="fa fa-id-card-o fa-lg"></i>Team</a></li>
+                    <li><a id="flink9" href="/privacy-policy/"><i class="fa fa-user-secret fa-lg"></i>Privacy Policy</a></li>
+                    <li><a id="flink10" href="/terms-of-service/"><i class="fa fa-gavel fa-lg"></i>Terms of Service</a></li>
+                    <li><a id="flink17" href="/dmca/"><i class="fa fa-shield fa-lg"></i>DMCA Policy</a></li>
+                </ul>
+            </div>
+            <div class="medium-3 columns margin-top-small-only">
+                <h4>Help</h4>
+                <ul class="menu footer-menu vertical">
+                    <li><a id="flink16" href="/panel/"><i class="fa fa-tachometer fa-lg"></i> Login to Control Panel</a></li>
+                    <li><a id="flink1" href="https://support.getfoxyproxy.org/"><i class="fa fa-info-circle fa-lg"></i> Open a Support Ticket no registration required</a></li>
+                    <li><a id="flink3" href="/help/proxy/"><i class="fa fa-question-circle"></i>
+    How to Use Your Proxy Account</a></li>
+                    <li><a id="flink4" href="/help/vpn/"><i class="fa fa-question-circle"></i>
+    How to Use Your VPN Account</a></li>
+                    <li><a id="flink5" href="/help/browsers/"><i class="fa fa-question-circle"></i>
+    Browser Extension Help</a></li>
+                    <li><a id="flink12" href="/resellers/"><i class="fa fa-wrench"></i>Resellers</a></li>
+                </ul>
+            </div>
+            <div class="medium-3 columns margin-top-small-only">
+                <h4>Our Impact</h4>
+                <ul class="menu footer-menu vertical">
+                    <li id="fb-li" class="clearfix">
+                        <div id="fb-comment-container" class="row">
+                            <div class="small-3 columns collapse-all">
+                                <img id="fb-avatar" src="/assets/img/logos/ubuntu-edge-logo.png">
+                            </div>
+                            <div class="small-9 columns collapse-all">
+                                <span id="fb-name" class="facebook-text facebook-blue float-left">&#x649;&#x62F;&#x627;&#x632;&#x647;&#x628; &#x644;&#x627;&#x649;&#x646;&#x627;&#x62F;</span><br>
+                                <div id="fb-comment" class="facebook-text">May be you don't know how much your effort are affecting our lives here in Iran. We love you Guys <span class="emoticon emoticon_heart" title="<3"></span></div>
+    
+                                <div class="facebook-text-small"><span class="facebook-blue">Unlike</span><span class="facebook-grey"> &#x2022; </span><span class="facebook-blue">Comment</span><span class="facebook-grey"> &#x2022; </span><span class="facebook-grey">March 31 at 10:44pm</span></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a id="flink7" href="https://facebook.com/foxyproxy/"><i class="fa fa-facebook fa-lg"></i>Facebook</a></li>
+                    <li><a id="flink8" href="https://twitter.com/foxyproxy/"><i class="fa fa-twitter"></i>Twitter</a></li>
+                    <li><a id="flink14" href="/wifi-routers"><i class="fa fa-wifi"></i>FoxyProxy Wifi Routers</a></li>
+                </ul>
+            </div>
+            <div class="medium-3 columns margin-top-small-only">
+                                <h4>Testimonials (<a href="/testimonials/">View All</a>)</h4>
+                <div id="testis"><p id="testisP">Love the Foxy Proxy!</p><div id="testisName">Michael Gebhart</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+        <script>var isLiveserver=true, isLoggedIn=false, logInOutLi = isLoggedIn ? "<li id='logInOutLi'><a href='/panel?logout=yes'>Logout</a></li>" : "<li id='logInOutLi'><a href='/panel/'>Login to Control Panel</a></li>"
+
+    ;</script>
+
+
+    
+    
+    
+    
+    <script src="/assets/js/app.js?v=38"> </script>
+      </body>
+</html>
+curl --connect-timeout 2 -k -x 45.130.141.59:8080 https://getfoxyproxy.org/geoip/
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoxyProxy - Whats My IP Address</title>
+    <link rel="stylesheet" type="text/css" href="/assets/fonts/font.css">
+    <link rel="stylesheet" href="/assets/css/app.css?v=26"> 
+	<link rel="apple-touch-icon" sizes="57x57" href="/assets/img/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/assets/img/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/assets/img/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/assets/img/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/assets/img/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/assets/img/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/assets/img/apple-touch-icon-152x152.png">
+	<link rel="icon" type="image/png" href="/assets/img/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/assets/img/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="/assets/img/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="/assets/img/manifest.json">
+	<link rel="mask-icon" href="/assets/img/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="/assets/img/favicon.ico">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-TileImage" content="/assets/img/mstile-144x144.png">
+	<meta name="msapplication-config" content="/assets/img/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+  </head>
+  <body>
+        <div class="top-bar" id="fp-nav-menu">
+      <div class="top-bar-left hide-for-medium">
+        <div id="fp-hamburger" class="title-bar">
+          <button class="menu-icon" type="button"></button>
+          <div class="title-bar-title">Menu</div>
+          <div class="title-bar-right"><a href="/"><img id="homeicon" src="/assets/img/logos/FOXYLogo.svg"> FoxyProxy</a></div>        </div>
+      </div> 
+    
+    <a href="/" class="show-for-medium"><img id="homeicon" src="/assets/img/logos/FOXYLogo.svg"> FoxyProxy</a>      <div class="top-bar-right show-for-medium">
+        <ul id="jaxWasHere" class="dropdown menu" data-dropdown-menu>
+          <li>
+            <a href="/order/">Buy Proxy &amp; VPN</a>
+          </li>
+          <li>
+            <a href="/downloads/">Downloads</a>
+          </li>
+          <li><a href="/corporate/">Custom Plans</a></li>
+          <li>
+          	<a href="/help/">Help</a>
+            <ul class="vertical menu">
+    					<li><a href="/help/faq/">FAQ</a></li>
+              <li><a href="/help/proxy/">Proxy Service</a></li>
+              <li><a href="/help/vpn/">VPN Service</a></li>
+    					<li><a href="/help/browsers/">Browsers</a></li>
+              <li><a href="/resellers/">Resellers</a></li>
+    					<li><a href="/developers/">Developers</a></li>
+              <li><a href="/geoip/">What's my IP and location?</a></li>
+            </ul>
+    			</li>
+          <li>
+          	<a href="#">About</a>
+            <ul class="vertical menu">
+              <li><a href="/contact/">Contact</a></li>
+              <li><a href="/team/">Team</a></li>
+            </ul>
+    			</li>
+            <li><a href='/panel/'>Login to Control Panel</a></li>        </ul>
+      </div>
+    </div>
+    <br/>
+    <div class="row">
+    	<div class="row callout">
+    		<div class="small-12 columns order-bg">
+    			<h1>Your IP Address and Location</h1>
+    		    Your IP address is <strong>45.130.141.59</strong><br><!-- db ver: 2018.12.27-->We don't know which country you are in. Weird.    			<form action="" method="get">
+    				<h3>Find the Location of Another IP Address</h3>
+    				<label>IP Address:<input type="text" name="ip" value="45.130.141.59"></label>
+    				<input type="submit" class="large button" value="Find">
+    			</form><br>
+    			
+    			<h3>WebRTC Leak Test</h3>
+    			<h5>WebRTC IP Address Detection:</h5>
+    			Your local IP address is <strong><span id="webrtc-local-ip">not detected</span></strong><br>
+    			Your public IP address is <strong><span id="webrtc-public-ip">not detected</span></strong><br><br>
+    			
+    			<h5>How to Disable WebRTC</h5>
+    			<strong>Firefox</Strong><br>
+    			<p>Install the <a href="https://addons.mozilla.org/en-US/firefox/addon/happy-bonobo-disable-webrtc/">DisableWebRTC add-on</a> then click its toolbar button to activate.</p>
+    			<strong>Chrome</Strong><br>
+    			<p>Install the <a href="https://chrome.google.com/webstore/detail/webrtc-network-limiter/npeicpdbkakmehahjeeohfdhnlpdklia">WebRTC Network Limiter</a>.</p>
+    			
+    		</div>
+    	</div>
+    </div>
+    
+
+    <div class="footer-container">
+        <footer class="row">
+            <div class="medium-3 columns">
+                <h4>About</h4>
+                <ul class="menu footer-menu vertical">
+                    <li id="fabout">FoxyProxy sells reliable, fast, secure VPN and proxy servers in 110+ countries. We also provide free, open-source VPN and proxy management tools.</li>
+                                        <li><a id="flink11" href="/contact/"><i class="fa fa-envelope fa-lg"></i>Contact</a></li>
+                    <li><a id="flink15" href="/team/"><i class="fa fa-id-card-o fa-lg"></i>Team</a></li>
+                    <li><a id="flink9" href="/privacy-policy/"><i class="fa fa-user-secret fa-lg"></i>Privacy Policy</a></li>
+                    <li><a id="flink10" href="/terms-of-service/"><i class="fa fa-gavel fa-lg"></i>Terms of Service</a></li>
+                    <li><a id="flink17" href="/dmca/"><i class="fa fa-shield fa-lg"></i>DMCA Policy</a></li>
+                </ul>
+            </div>
+            <div class="medium-3 columns margin-top-small-only">
+                <h4>Help</h4>
+                <ul class="menu footer-menu vertical">
+                    <li><a id="flink16" href="/panel/"><i class="fa fa-tachometer fa-lg"></i> Login to Control Panel</a></li>
+                    <li><a id="flink1" href="https://support.getfoxyproxy.org/"><i class="fa fa-info-circle fa-lg"></i> Open a Support Ticket no registration required</a></li>
+                    <li><a id="flink3" href="/help/proxy/"><i class="fa fa-question-circle"></i>
+    How to Use Your Proxy Account</a></li>
+                    <li><a id="flink4" href="/help/vpn/"><i class="fa fa-question-circle"></i>
+    How to Use Your VPN Account</a></li>
+                    <li><a id="flink5" href="/help/browsers/"><i class="fa fa-question-circle"></i>
+    Browser Extension Help</a></li>
+                    <li><a id="flink12" href="/resellers/"><i class="fa fa-wrench"></i>Resellers</a></li>
+                </ul>
+            </div>
+            <div class="medium-3 columns margin-top-small-only">
+                <h4>Our Impact</h4>
+                <ul class="menu footer-menu vertical">
+                    <li id="fb-li" class="clearfix">
+                        <div id="fb-comment-container" class="row">
+                            <div class="small-3 columns collapse-all">
+                                <img id="fb-avatar" src="/assets/img/logos/ubuntu-edge-logo.png">
+                            </div>
+                            <div class="small-9 columns collapse-all">
+                                <span id="fb-name" class="facebook-text facebook-blue float-left">&#x649;&#x62F;&#x627;&#x632;&#x647;&#x628; &#x644;&#x627;&#x649;&#x646;&#x627;&#x62F;</span><br>
+                                <div id="fb-comment" class="facebook-text">May be you don't know how much your effort are affecting our lives here in Iran. We love you Guys <span class="emoticon emoticon_heart" title="<3"></span></div>
+    
+                                <div class="facebook-text-small"><span class="facebook-blue">Unlike</span><span class="facebook-grey"> &#x2022; </span><span class="facebook-blue">Comment</span><span class="facebook-grey"> &#x2022; </span><span class="facebook-grey">March 31 at 10:44pm</span></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a id="flink7" href="https://facebook.com/foxyproxy/"><i class="fa fa-facebook fa-lg"></i>Facebook</a></li>
+                    <li><a id="flink8" href="https://twitter.com/foxyproxy/"><i class="fa fa-twitter"></i>Twitter</a></li>
+                    <li><a id="flink14" href="/wifi-routers"><i class="fa fa-wifi"></i>FoxyProxy Wifi Routers</a></li>
+                </ul>
+            </div>
+            <div class="medium-3 columns margin-top-small-only">
+                                <h4>Testimonials (<a href="/testimonials/">View All</a>)</h4>
+                <div id="testis"><p id="testisP">I enjoyed using the service ... I was still able to stream video quite comfortably on an ADSL2 connection.</p><div id="testisName">Chris Campbell</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+        <script>var isLiveserver=true, isLoggedIn=false, logInOutLi = isLoggedIn ? "<li id='logInOutLi'><a href='/panel?logout=yes'>Logout</a></li>" : "<li id='logInOutLi'><a href='/panel/'>Login to Control Panel</a></li>"
+
+    ;</script>
+
+
+    
+    
+    
+    
+    <script src="/assets/js/app.js?v=38"> </script>
+      </body>
+</html>
+curl --connect-timeout 2 -k -x 103.193.119.126:8080 https://getfoxyproxy.org/geoip/
+curl --connect-timeout 2 -k -x 115.68.221.147:80 https://getfoxyproxy.org/geoip/
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoxyProxy - Whats My IP Address</title>
+    <link rel="stylesheet" type="text/css" href="/assets/fonts/font.css">
+    <link rel="stylesheet" href="/assets/css/app.css?v=26"> 
+	<link rel="apple-touch-icon" sizes="57x57" href="/assets/img/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/assets/img/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/assets/img/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/assets/img/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/assets/img/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/assets/img/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/assets/img/apple-touch-icon-152x152.png">
+	<link rel="icon" type="image/png" href="/assets/img/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/assets/img/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="/assets/img/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="/assets/img/manifest.json">
+	<link rel="mask-icon" href="/assets/img/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="/assets/img/favicon.ico">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-TileImage" content="/assets/img/mstile-144x144.png">
+	<meta name="msapplication-config" content="/assets/img/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+  </head>
+  <body>
+        <div class="top-bar" id="fp-nav-menu">
+      <div class="top-bar-left hide-for-medium">
+        <div id="fp-hamburger" class="title-bar">
+          <button class="menu-icon" type="button"></button>
+          <div class="title-bar-title">Menu</div>
+          <div class="title-bar-right"><a href="/"><img id="homeicon" src="/assets/img/logos/FOXYLogo.svg"> FoxyProxy</a></div>        </div>
+      </div> 
+    
+    <a href="/" class="show-for-medium"><img id="homeicon" src="/assets/img/logos/FOXYLogo.svg"> FoxyProxy</a>      <div class="top-bar-right show-for-medium">
+        <ul id="jaxWasHere" class="dropdown menu" data-dropdown-menu>
+          <li>
+            <a href="/order/">Buy Proxy &amp; VPN</a>
+          </li>
+          <li>
+            <a href="/downloads/">Downloads</a>
+          </li>
+          <li><a href="/corporate/">Custom Plans</a></li>
+          <li>
+          	<a href="/help/">Help</a>
+            <ul class="vertical menu">
+    					<li><a href="/help/faq/">FAQ</a></li>
+              <li><a href="/help/proxy/">Proxy Service</a></li>
+              <li><a href="/help/vpn/">VPN Service</a></li>
+    					<li><a href="/help/browsers/">Browsers</a></li>
+              <li><a href="/resellers/">Resellers</a></li>
+    					<li><a href="/developers/">Developers</a></li>
+              <li><a href="/geoip/">What's my IP and location?</a></li>
+            </ul>
+    			</li>
+          <li>
+          	<a href="#">About</a>
+            <ul class="vertical menu">
+              <li><a href="/contact/">Contact</a></li>
+              <li><a href="/team/">Team</a></li>
+            </ul>
+    			</li>
+            <li><a href='/panel/'>Login to Control Panel</a></li>        </ul>
+      </div>
+    </div>
+    <br/>
+    <div class="row">
+    	<div class="row callout">
+    		<div class="small-12 columns order-bg">
+    			<h1>Your IP Address and Location</h1>
+    		    Your IP address is <strong>115.68.221.147</strong><br><!-- db ver: 2018.12.27-->Your country is <strong>Korea, Republic of</strong> <img class="fp-small-flag" src="../vendor/components/flag-icon-css/flags/4x3/kr.svg" alt=""><br>You are in the area of <strong>Seongnam</strong><strong>, Gyeonggi-do</strong><br><br><iframe width="450" height="450" frameborder="1" style="border:1px solid #aaa" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCroKnYopxw-bEWOZI7EZqLUc9mGi6fb6U&q=Korea%2C+Republic+of&language=en"></iframe><div style="font-size:0.7rem">This site includes IP2Location lite data available from <a href="https://lite.ip2location.com">lite.ip2location.com</a></div>    			<form action="" method="get">
+    				<h3>Find the Location of Another IP Address</h3>
+    				<label>IP Address:<input type="text" name="ip" value="115.68.221.147"></label>
+    				<input type="submit" class="large button" value="Find">
+    			</form><br>
+    			
+    			<h3>WebRTC Leak Test</h3>
+    			<h5>WebRTC IP Address Detection:</h5>
+    			Your local IP address is <strong><span id="webrtc-local-ip">not detected</span></strong><br>
+    			Your public IP address is <strong><span id="webrtc-public-ip">not detected</span></strong><br><br>
+    			
+    			<h5>How to Disable WebRTC</h5>
+    			<strong>Firefox</Strong><br>
+    			<p>Install the <a href="https://addons.mozilla.org/en-US/firefox/addon/happy-bonobo-disable-webrtc/">DisableWebRTC add-on</a> then click its toolbar button to activate.</p>
+    			<strong>Chrome</Strong><br>
+    			<p>Install the <a href="https://chrome.google.com/webstore/detail/webrtc-network-limiter/npeicpdbkakmehahjeeohfdhnlpdklia">WebRTC Network Limiter</a>.</p>
+    			
+    		</div>
+    	</div>
+    </div>
+    
+
+    <div class="footer-container">
+        <footer class="row">
+            <div class="medium-3 columns">
+                <h4>About</h4>
+                <ul class="menu footer-menu vertical">
+                    <li id="fabout">FoxyProxy sells reliable, fast, secure VPN and proxy servers in 110+ countries. We also provide free, open-source VPN and proxy management tools.</li>
+                                        <li><a id="flink11" href="/contact/"><i class="fa fa-envelope fa-lg"></i>Contact</a></li>
+                    <li><a id="flink15" href="/team/"><i class="fa fa-id-card-o fa-lg"></i>Team</a></li>
+                    <li><a id="flink9" href="/privacy-policy/"><i class="fa fa-user-secret fa-lg"></i>Privacy Policy</a></li>
+                    <li><a id="flink10" href="/terms-of-service/"><i class="fa fa-gavel fa-lg"></i>Terms of Service</a></li>
+                    <li><a id="flink17" href="/dmca/"><i class="fa fa-shield fa-lg"></i>DMCA Policy</a></li>
+                </ul>
+            </div>
+            <div class="medium-3 columns margin-top-small-only">
+                <h4>Help</h4>
+                <ul class="menu footer-menu vertical">
+                    <li><a id="flink16" href="/panel/"><i class="fa fa-tachometer fa-lg"></i> Login to Control Panel</a></li>
+                    <li><a id="flink1" href="https://support.getfoxyproxy.org/"><i class="fa fa-info-circle fa-lg"></i> Open a Support Ticket no registration required</a></li>
+                    <li><a id="flink3" href="/help/proxy/"><i class="fa fa-question-circle"></i>
+    How to Use Your Proxy Account</a></li>
+                    <li><a id="flink4" href="/help/vpn/"><i class="fa fa-question-circle"></i>
+    How to Use Your VPN Account</a></li>
+                    <li><a id="flink5" href="/help/browsers/"><i class="fa fa-question-circle"></i>
+    Browser Extension Help</a></li>
+                    <li><a id="flink12" href="/resellers/"><i class="fa fa-wrench"></i>Resellers</a></li>
+                </ul>
+            </div>
+            <div class="medium-3 columns margin-top-small-only">
+                <h4>Our Impact</h4>
+                <ul class="menu footer-menu vertical">
+                    <li id="fb-li" class="clearfix">
+                        <div id="fb-comment-container" class="row">
+                            <div class="small-3 columns collapse-all">
+                                <img id="fb-avatar" src="/assets/img/logos/ubuntu-edge-logo.png">
+                            </div>
+                            <div class="small-9 columns collapse-all">
+                                <span id="fb-name" class="facebook-text facebook-blue float-left">&#x649;&#x62F;&#x627;&#x632;&#x647;&#x628; &#x644;&#x627;&#x649;&#x646;&#x627;&#x62F;</span><br>
+                                <div id="fb-comment" class="facebook-text">May be you don't know how much your effort are affecting our lives here in Iran. We love you Guys <span class="emoticon emoticon_heart" title="<3"></span></div>
+    
+                                <div class="facebook-text-small"><span class="facebook-blue">Unlike</span><span class="facebook-grey"> &#x2022; </span><span class="facebook-blue">Comment</span><span class="facebook-grey"> &#x2022; </span><span class="facebook-grey">March 31 at 10:44pm</span></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a id="flink7" href="https://facebook.com/foxyproxy/"><i class="fa fa-facebook fa-lg"></i>Facebook</a></li>
+                    <li><a id="flink8" href="https://twitter.com/foxyproxy/"><i class="fa fa-twitter"></i>Twitter</a></li>
+                    <li><a id="flink14" href="/wifi-routers"><i class="fa fa-wifi"></i>FoxyProxy Wifi Routers</a></li>
+                </ul>
+            </div>
+            <div class="medium-3 columns margin-top-small-only">
+                                <h4>Testimonials (<a href="/testimonials/">View All</a>)</h4>
+                <div id="testis"><p id="testisP">Still your service is running flawlessly. If only other businesses had such service.... I suppose we can dream.</p><div id="testisName">Dennis Cote</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+        <script>var isLiveserver=true, isLoggedIn=false, logInOutLi = isLoggedIn ? "<li id='logInOutLi'><a href='/panel?logout=yes'>Logout</a></li>" : "<li id='logInOutLi'><a href='/panel/'>Login to Control Panel</a></li>"
+
+    ;</script>
+
+
+    
+    
+    
+    
+    <script src="/assets/js/app.js?v=38"> </script>
+      </body>
+</html>
+curl --connect-timeout 2 -k -x 183.88.189.199:8080 https://getfoxyproxy.org/geoip/
+curl --connect-timeout 2 -k -x 92.242.254.47:53545 https://getfoxyproxy.org/geoip/
+curl --connect-timeout 2 -k -x 36.90.217.143:3128 https://getfoxyproxy.org/geoip/
+curl --connect-timeout 2 -k -x 41.242.116.150:50000 https://getfoxyproxy.org/geoip/
+curl --connect-timeout 2 -k -x 104.223.135.178:10000 https://getfoxyproxy.org/geoip/
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoxyProxy - Whats My IP Address</title>
+    <link rel="stylesheet" type="text/css" href="/assets/fonts/font.css">
+    <link rel="stylesheet" href="/assets/css/app.css?v=26"> 
+	<link rel="apple-touch-icon" sizes="57x57" href="/assets/img/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/assets/img/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/assets/img/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/assets/img/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/assets/img/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/assets/img/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/assets/img/apple-touch-icon-152x152.png">
+	<link rel="icon" type="image/png" href="/assets/img/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/assets/img/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="/assets/img/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="/assets/img/manifest.json">
+	<link rel="mask-icon" href="/assets/img/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="/assets/img/favicon.ico">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-TileImage" content="/assets/img/mstile-144x144.png">
+	<meta name="msapplication-config" content="/assets/img/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+  </head>
+  <body>
+        <div class="top-bar" id="fp-nav-menu">
+      <div class="top-bar-left hide-for-medium">
+        <div id="fp-hamburger" class="title-bar">
+          <button class="menu-icon" type="button"></button>
+          <div class="title-bar-title">Menu</div>
+          <div class="title-bar-right"><a href="/"><img id="homeicon" src="/assets/img/logos/FOXYLogo.svg"> FoxyProxy</a></div>        </div>
+      </div> 
+    
+    <a href="/" class="show-for-medium"><img id="homeicon" src="/assets/img/logos/FOXYLogo.svg"> FoxyProxy</a>      <div class="top-bar-right show-for-medium">
+        <ul id="jaxWasHere" class="dropdown menu" data-dropdown-menu>
+          <li>
+            <a href="/order/">Buy Proxy &amp; VPN</a>
+          </li>
+          <li>
+            <a href="/downloads/">Downloads</a>
+          </li>
+          <li><a href="/corporate/">Custom Plans</a></li>
+          <li>
+          	<a href="/help/">Help</a>
+            <ul class="vertical menu">
+    					<li><a href="/help/faq/">FAQ</a></li>
+              <li><a href="/help/proxy/">Proxy Service</a></li>
+              <li><a href="/help/vpn/">VPN Service</a></li>
+    					<li><a href="/help/browsers/">Browsers</a></li>
+              <li><a href="/resellers/">Resellers</a></li>
+    					<li><a href="/developers/">Developers</a></li>
+              <li><a href="/geoip/">What's my IP and location?</a></li>
+            </ul>
+    			</li>
+          <li>
+          	<a href="#">About</a>
+            <ul class="vertical menu">
+              <li><a href="/contact/">Contact</a></li>
+              <li><a href="/team/">Team</a></li>
+            </ul>
+    			</li>
+            <li><a href='/panel/'>Login to Control Panel</a></li>        </ul>
+      </div>
+    </div>
+    <br/>
+    <div class="row">
+    	<div class="row callout">
+    		<div class="small-12 columns order-bg">
+    			<h1>Your IP Address and Location</h1>
+    		    Your IP address is <strong>104.223.135.178</strong><br><!-- db ver: 2018.12.27-->Your country is <strong>United States</strong> <img class="fp-small-flag" src="../vendor/components/flag-icon-css/flags/4x3/us.svg" alt=""><br>You are in the area of <strong>Los Angeles</strong><strong>, California</strong><br><br><iframe width="450" height="450" frameborder="1" style="border:1px solid #aaa" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCroKnYopxw-bEWOZI7EZqLUc9mGi6fb6U&q=United+States&language=en"></iframe><div style="font-size:0.7rem">This site includes IP2Location lite data available from <a href="https://lite.ip2location.com">lite.ip2location.com</a></div>    			<form action="" method="get">
+    				<h3>Find the Location of Another IP Address</h3>
+    				<label>IP Address:<input type="text" name="ip" value="104.223.135.178"></label>
+    				<input type="submit" class="large button" value="Find">
+    			</form><br>
+    			
+    			<h3>WebRTC Leak Test</h3>
+    			<h5>WebRTC IP Address Detection:</h5>
+    			Your local IP address is <strong><span id="webrtc-local-ip">not detected</span></strong><br>
+    			Your public IP address is <strong><span id="webrtc-public-ip">not detected</span></strong><br><br>
+    			
+    			<h5>How to Disable WebRTC</h5>
+    			<strong>Firefox</Strong><br>
+    			<p>Install the <a href="https://addons.mozilla.org/en-US/firefox/addon/happy-bonobo-disable-webrtc/">DisableWebRTC add-on</a> then click its toolbar button to activate.</p>
+    			<strong>Chrome</Strong><br>
+    			<p>Install the <a href="https://chrome.google.com/webstore/detail/webrtc-network-limiter/npeicpdbkakmehahjeeohfdhnlpdklia">WebRTC Network Limiter</a>.</p>
+    			
+    		</div>
+    	</div>
+    </div>
+    
+
+    <div class="footer-container">
+        <footer class="row">
+            <div class="medium-3 columns">
+                <h4>About</h4>
+                <ul class="menu footer-menu vertical">
+                    <li id="fabout">FoxyProxy sells reliable, fast, secure VPN and proxy servers in 110+ countries. We also provide free, open-source VPN and proxy management tools.</li>
+                                        <li><a id="flink11" href="/contact/"><i class="fa fa-envelope fa-lg"></i>Contact</a></li>
+                    <li><a id="flink15" href="/team/"><i class="fa fa-id-card-o fa-lg"></i>Team</a></li>
+                    <li><a id="flink9" href="/privacy-policy/"><i class="fa fa-user-secret fa-lg"></i>Privacy Policy</a></li>
+                    <li><a id="flink10" href="/terms-of-service/"><i class="fa fa-gavel fa-lg"></i>Terms of Service</a></li>
+                    <li><a id="flink17" href="/dmca/"><i class="fa fa-shield fa-lg"></i>DMCA Policy</a></li>
+                </ul>
+            </div>
+            <div class="medium-3 columns margin-top-small-only">
+                <h4>Help</h4>
+                <ul class="menu footer-menu vertical">
+                    <li><a id="flink16" href="/panel/"><i class="fa fa-tachometer fa-lg"></i> Login to Control Panel</a></li>
+                    <li><a id="flink1" href="https://support.getfoxyproxy.org/"><i class="fa fa-info-circle fa-lg"></i> Open a Support Ticket no registration required</a></li>
+                    <li><a id="flink3" href="/help/proxy/"><i class="fa fa-question-circle"></i>
+    How to Use Your Proxy Account</a></li>
+                    <li><a id="flink4" href="/help/vpn/"><i class="fa fa-question-circle"></i>
+    How to Use Your VPN Account</a></li>
+                    <li><a id="flink5" href="/help/browsers/"><i class="fa fa-question-circle"></i>
+    Browser Extension Help</a></li>
+                    <li><a id="flink12" href="/resellers/"><i class="fa fa-wrench"></i>Resellers</a></li>
+                </ul>
+            </div>
+            <div class="medium-3 columns margin-top-small-only">
+                <h4>Our Impact</h4>
+                <ul class="menu footer-menu vertical">
+                    <li id="fb-li" class="clearfix">
+                        <div id="fb-comment-container" class="row">
+                            <div class="small-3 columns collapse-all">
+                                <img id="fb-avatar" src="/assets/img/logos/ubuntu-edge-logo.png">
+                            </div>
+                            <div class="small-9 columns collapse-all">
+                                <span id="fb-name" class="facebook-text facebook-blue float-left">&#x649;&#x62F;&#x627;&#x632;&#x647;&#x628; &#x644;&#x627;&#x649;&#x646;&#x627;&#x62F;</span><br>
+                                <div id="fb-comment" class="facebook-text">May be you don't know how much your effort are affecting our lives here in Iran. We love you Guys <span class="emoticon emoticon_heart" title="<3"></span></div>
+    
+                                <div class="facebook-text-small"><span class="facebook-blue">Unlike</span><span class="facebook-grey"> &#x2022; </span><span class="facebook-blue">Comment</span><span class="facebook-grey"> &#x2022; </span><span class="facebook-grey">March 31 at 10:44pm</span></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a id="flink7" href="https://facebook.com/foxyproxy/"><i class="fa fa-facebook fa-lg"></i>Facebook</a></li>
+                    <li><a id="flink8" href="https://twitter.com/foxyproxy/"><i class="fa fa-twitter"></i>Twitter</a></li>
+                    <li><a id="flink14" href="/wifi-routers"><i class="fa fa-wifi"></i>FoxyProxy Wifi Routers</a></li>
+                </ul>
+            </div>
+            <div class="medium-3 columns margin-top-small-only">
+                                <h4>Testimonials (<a href="/testimonials/">View All</a>)</h4>
+                <div id="testis"><p id="testisP">it was great-- just forgot to renew. Will resubscribe now.</p><div id="testisName">Jim Dever</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+        <script>var isLiveserver=true, isLoggedIn=false, logInOutLi = isLoggedIn ? "<li id='logInOutLi'><a href='/panel?logout=yes'>Logout</a></li>" : "<li id='logInOutLi'><a href='/panel/'>Login to Control Panel</a></li>"
+
+    ;</script>
+
+
+    
+    
+    
+    
+    <script src="/assets/js/app.js?v=38"> </script>
+      </body>
+</html>
+curl --connect-timeout 2 -k -x 149.56.95.184:80 https://getfoxyproxy.org/geoip/
+curl --connect-timeout 2 -k -x 185.198.61.146:3128 https://getfoxyproxy.org/geoip/
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoxyProxy - Whats My IP Address</title>
+    <link rel="stylesheet" type="text/css" href="/assets/fonts/font.css">
+    <link rel="stylesheet" href="/assets/css/app.css?v=26"> 
+	<link rel="apple-touch-icon" sizes="57x57" href="/assets/img/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/assets/img/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/assets/img/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/assets/img/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/assets/img/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/assets/img/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/assets/img/apple-touch-icon-152x152.png">
+	<link rel="icon" type="image/png" href="/assets/img/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/assets/img/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="/assets/img/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="/assets/img/manifest.json">
+	<link rel="mask-icon" href="/assets/img/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="/assets/img/favicon.ico">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-TileImage" content="/assets/img/mstile-144x144.png">
+	<meta name="msapplication-config" content="/assets/img/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+  </head>
+  <body>
+        <div class="top-bar" id="fp-nav-menu">
+      <div class="top-bar-left hide-for-medium">
+        <div id="fp-hamburger" class="title-bar">
+          <button class="menu-icon" type="button"></button>
+          <div class="title-bar-title">Menu</div>
+          <div class="title-bar-right"><a href="/"><img id="homeicon" src="/assets/img/logos/FOXYLogo.svg"> FoxyProxy</a></div>        </div>
+      </div> 
+    
+    <a href="/" class="show-for-medium"><img id="homeicon" src="/assets/img/logos/FOXYLogo.svg"> FoxyProxy</a>      <div class="top-bar-right show-for-medium">
+        <ul id="jaxWasHere" class="dropdown menu" data-dropdown-menu>
+          <li>
+            <a href="/order/">Buy Proxy &amp; VPN</a>
+          </li>
+          <li>
+            <a href="/downloads/">Downloads</a>
+          </li>
+          <li><a href="/corporate/">Custom Plans</a></li>
+          <li>
+          	<a href="/help/">Help</a>
+            <ul class="vertical menu">
+    					<li><a href="/help/faq/">FAQ</a></li>
+              <li><a href="/help/proxy/">Proxy Service</a></li>
+              <li><a href="/help/vpn/">VPN Service</a></li>
+    					<li><a href="/help/browsers/">Browsers</a></li>
+              <li><a href="/resellers/">Resellers</a></li>
+    					<li><a href="/developers/">Developers</a></li>
+              <li><a href="/geoip/">What's my IP and location?</a></li>
+            </ul>
+    			</li>
+          <li>
+          	<a href="#">About</a>
+            <ul class="vertical menu">
+              <li><a href="/contact/">Contact</a></li>
+              <li><a href="/team/">Team</a></li>
+            </ul>
+    			</li>
+            <li><a href='/panel/'>Login to Control Panel</a></li>        </ul>
+      </div>
+    </div>
+    <br/>
+    <div class="row">
+    	<div class="row callout">
+    		<div class="small-12 columns order-bg">
+    			<h1>Your IP Address and Location</h1>
+    		    Your IP address is <strong>185.198.61.146</strong><br><!-- db ver: 2018.12.27-->Your country is <strong>Italy</strong> <img class="fp-small-flag" src="../vendor/components/flag-icon-css/flags/4x3/it.svg" alt=""><br>You are in the area of <strong>Milan</strong><strong>, Lombardia</strong><br><br><iframe width="450" height="450" frameborder="1" style="border:1px solid #aaa" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCroKnYopxw-bEWOZI7EZqLUc9mGi6fb6U&q=Italy&language=en"></iframe><div style="font-size:0.7rem">This site includes IP2Location lite data available from <a href="https://lite.ip2location.com">lite.ip2location.com</a></div>    			<form action="" method="get">
+    				<h3>Find the Location of Another IP Address</h3>
+    				<label>IP Address:<input type="text" name="ip" value="185.198.61.146"></label>
+    				<input type="submit" class="large button" value="Find">
+    			</form><br>
+    			
+    			<h3>WebRTC Leak Test</h3>
+    			<h5>WebRTC IP Address Detection:</h5>
+    			Your local IP address is <strong><span id="webrtc-local-ip">not detected</span></strong><br>
+    			Your public IP address is <strong><span id="webrtc-public-ip">not detected</span></strong><br><br>
+    			
+    			<h5>How to Disable WebRTC</h5>
+    			<strong>Firefox</Strong><br>
+    			<p>Install the <a href="https://addons.mozilla.org/en-US/firefox/addon/happy-bonobo-disable-webrtc/">DisableWebRTC add-on</a> then click its toolbar button to activate.</p>
+    			<strong>Chrome</Strong><br>
+    			<p>Install the <a href="https://chrome.google.com/webstore/detail/webrtc-network-limiter/npeicpdbkakmehahjeeohfdhnlpdklia">WebRTC Network Limiter</a>.</p>
+    			
+    		</div>
+    	</div>
+    </div>
+    
+
+    <div class="footer-container">
+        <footer class="row">
+            <div class="medium-3 columns">
+                <h4>About</h4>
+                <ul class="menu footer-menu vertical">
+                    <li id="fabout">FoxyProxy sells reliable, fast, secure VPN and proxy servers in 110+ countries. We also provide free, open-source VPN and proxy management tools.</li>
+                                        <li><a id="flink11" href="/contact/"><i class="fa fa-envelope fa-lg"></i>Contact</a></li>
+                    <li><a id="flink15" href="/team/"><i class="fa fa-id-card-o fa-lg"></i>Team</a></li>
+                    <li><a id="flink9" href="/privacy-policy/"><i class="fa fa-user-secret fa-lg"></i>Privacy Policy</a></li>
+                    <li><a id="flink10" href="/terms-of-service/"><i class="fa fa-gavel fa-lg"></i>Terms of Service</a></li>
+                    <li><a id="flink17" href="/dmca/"><i class="fa fa-shield fa-lg"></i>DMCA Policy</a></li>
+                </ul>
+            </div>
+            <div class="medium-3 columns margin-top-small-only">
+                <h4>Help</h4>
+                <ul class="menu footer-menu vertical">
+                    <li><a id="flink16" href="/panel/"><i class="fa fa-tachometer fa-lg"></i> Login to Control Panel</a></li>
+                    <li><a id="flink1" href="https://support.getfoxyproxy.org/"><i class="fa fa-info-circle fa-lg"></i> Open a Support Ticket no registration required</a></li>
+                    <li><a id="flink3" href="/help/proxy/"><i class="fa fa-question-circle"></i>
+    How to Use Your Proxy Account</a></li>
+                    <li><a id="flink4" href="/help/vpn/"><i class="fa fa-question-circle"></i>
+    How to Use Your VPN Account</a></li>
+                    <li><a id="flink5" href="/help/browsers/"><i class="fa fa-question-circle"></i>
+    Browser Extension Help</a></li>
+                    <li><a id="flink12" href="/resellers/"><i class="fa fa-wrench"></i>Resellers</a></li>
+                </ul>
+            </div>
+            <div class="medium-3 columns margin-top-small-only">
+                <h4>Our Impact</h4>
+                <ul class="menu footer-menu vertical">
+                    <li id="fb-li" class="clearfix">
+                        <div id="fb-comment-container" class="row">
+                            <div class="small-3 columns collapse-all">
+                                <img id="fb-avatar" src="/assets/img/logos/ubuntu-edge-logo.png">
+                            </div>
+                            <div class="small-9 columns collapse-all">
+                                <span id="fb-name" class="facebook-text facebook-blue float-left">&#x649;&#x62F;&#x627;&#x632;&#x647;&#x628; &#x644;&#x627;&#x649;&#x646;&#x627;&#x62F;</span><br>
+                                <div id="fb-comment" class="facebook-text">May be you don't know how much your effort are affecting our lives here in Iran. We love you Guys <span class="emoticon emoticon_heart" title="<3"></span></div>
+    
+                                <div class="facebook-text-small"><span class="facebook-blue">Unlike</span><span class="facebook-grey"> &#x2022; </span><span class="facebook-blue">Comment</span><span class="facebook-grey"> &#x2022; </span><span class="facebook-grey">March 31 at 10:44pm</span></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a id="flink7" href="https://facebook.com/foxyproxy/"><i class="fa fa-facebook fa-lg"></i>Facebook</a></li>
+                    <li><a id="flink8" href="https://twitter.com/foxyproxy/"><i class="fa fa-twitter"></i>Twitter</a></li>
+                    <li><a id="flink14" href="/wifi-routers"><i class="fa fa-wifi"></i>FoxyProxy Wifi Routers</a></li>
+                </ul>
+            </div>
+            <div class="medium-3 columns margin-top-small-only">
+                                <h4>Testimonials (<a href="/testimonials/">View All</a>)</h4>
+                <div id="testis"><p id="testisP">Thank you very much for your insanely fast reply! Really impressive and highly appreciate.</p><div id="testisName">Andre Blackert</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+        <script>var isLiveserver=true, isLoggedIn=false, logInOutLi = isLoggedIn ? "<li id='logInOutLi'><a href='/panel?logout=yes'>Logout</a></li>" : "<li id='logInOutLi'><a href='/panel/'>Login to Control Panel</a></li>"
+
+    ;</script>
+
+
+    
+    
+    
+    
+    <script src="/assets/js/app.js?v=38"> </script>
+      </body>
+</html>
+curl --connect-timeout 2 -k -x 46.60.251.55:9091 https://getfoxyproxy.org/geoip/
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+	<html>
+
+	   <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+		<title>Site Blocked</title>
+	<link rel="stylesheet" href="https://blockpageassets.smoothwall.com/styles.css">
+		<link rel="stylesheet" href="https://blockpageassets.smoothwall.com/MooDialog.css">
+		<link rel="stylesheet" href="https://blockpageassets.smoothwall.com/MooDialog_ca_popup.css">
+		<script type="text/javascript" src="https://blockpageassets.smoothwall.com/mootools-core.min.js"></script>
+		<script type="text/javascript" src="https://blockpageassets.smoothwall.com/MooDialog.min.js"></script>
+		<script type="text/javascript" src="https://blockpageassets.smoothwall.com/Overlay.min.js"></script>
+		<script type="text/javascript" src="https://blockpageassets.smoothwall.com/jscript.min.js"></script>
+		</head>	   <body>
+
+	<div class='endusermessage' style='background-image: url("https://blockpageassets.smoothwall.com/denied-pale.jpg"); '>
+	<div class='endUserBgImage'>
+		<img src='https://blockpageassets.smoothwall.com/logo.png'>
+	</div>
+<h2 style=''>This content has been blocked because it does not comply with the acceptable usage policy.</h2>
+<h2 style='display: none;' id='quota_message'>Your access to the content you have requested is time limited.  You have -QUOTATIME1- left.</h2>
+<form style='display: none;'
+	method='POST'
+	action='http://10.149.191.254/modules/guardian3/cgi-bin/quota.cgi'>
+<input type='hidden' name='quotainfo' value='' />
+<input type='submit' value='Access the content for -QUOTATIME2-' id='quota_button_message' />
+</form>
+
+<h3>The request was logged.</h3>
+
+	<div class='endUserAttributes''>
+<dl>
+
+
+<dt>Category</dt>
+<dd>Web Proxies</dd>
+
+<dt>Group</dt>
+<dd>Unauthenticated IPs</dd>
+
+
+<dt>IP</dt>
+<dd>72.200.99.69</dd>
+
+<dt>Reason</dt>
+<dd>Content of type Web Proxies ( Domain/URL filtering ) blocked.</dd>
+
+
+<dt>URL</dt>
+<dd>https://getfoxyproxy.org/geoip/</dd>
+
+
+</dl>
+	</div>
+
+
+	</div>
+	<script type="text/javascript">
+		function format_time(time) {
+			var hours = Math.floor(time / 60);
+			var minutes = Math.round(time % 60);
+
+			var hourstring;
+			switch(hours) {
+				case 0:
+					hourstring = "";
+					break;
+				case 1:
+					hourstring = "1 hour ";
+					break;
+				default:
+					hourstring = hours + " hours "
+					break;
+			}
+
+			var minutestring = "";
+			if ( !((minutes == 0) && (hours != 0)) ) {
+				minutestring = minutes + " minutes";
+			}
+			return  hourstring + minutestring;
+		}
+
+		function do_onload() {
+			var message = document.getElementById("quota_message");
+			var button_message = document.getElementById("quota_button_message");
+			message.innerHTML = message.innerHTML.replace("-QUOTATIME1-", format_time(60));
+			button_message.value = button_message.value.replace("-QUOTATIME2-", format_time(10));
+		}
+
+		window.onload = do_onload;
+	</script>
+</body>
+</html>
